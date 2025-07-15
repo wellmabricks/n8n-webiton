@@ -18,33 +18,33 @@ services:
   plan: free
   envVars:
   - key: N8N_USER_FOLDER
-    sync: false
+    sync: true
   - key: N8N_PERSONALIZATION_ENABLED
-    sync: false
+    sync: true
   - key: N8N_PATH
-    sync: false
+    sync: true
   - key: N8N_EMAIL_MODE
-    sync: false
+    sync: true
   - key: N8N_EDITOR_BASE_URL
     sync: false
   - key: N8N_BASIC_AUTH_PASSWORD
-    sync: false
+    sync: true
   - key: N8N_BASIC_AUTH_USER
-    sync: false
+    sync: true
   - key: N8N_ENCRYPTION_KEY
     sync: false
   - key: N8N_BASIC_AUTH_PASSWORD
-    sync: false
+    sync: true
   - key: N8N_BASIC_AUTH_USER
-    sync: false
+    sync: true
   - key: N8N_BASIC_AUTH_ACTIVE
-    sync: false
+    sync: true
   - key: N8N_HOST
-    sync: false
+    sync: true
   - key: N8N_TEMPLATES_ENABLED
-    sync: false
+    sync: true
   - key: Port
-    sync: false
+    sync: true
   - fromGroup: n8nenv
   region: oregon
   autoDeployTrigger: commit
